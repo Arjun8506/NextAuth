@@ -1,10 +1,9 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 
-const verifyEmailPage = () => {
+const VerifyEmailPage = () => {
   const router = useRouter();
   const [formData, setformData] = useState({
     otp: "",
@@ -89,4 +88,4 @@ const verifyEmailPage = () => {
   );
 };
 
-export default verifyEmailPage;
+export default VerifyEmailPage;
